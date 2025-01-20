@@ -13,6 +13,7 @@ def is_palindrome(text):
     final_text = ''.join(char.lower() for char in text if char.isalnum())
     return final_text == final_text[::-1]
 
+
 if __name__ == '__main__':
     test_cases = [('level', True),
                   ('LEVeL', True),
